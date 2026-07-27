@@ -1,5 +1,9 @@
+from typing import Any
+
 from mcp.server.fastmcp import FastMCP
 from mcp.server.transport_security import TransportSecuritySettings
+
+from profile_loader import load_profile_data
 
 transport_security = TransportSecuritySettings(
     enable_dns_rebinding_protection=True,
@@ -25,9 +29,12 @@ mcp = FastMCP(
 )
 
 @mcp.tool()
-def get_profile() -> dict[str, str]:
-    """Return the temporary MVP profile used for MCP connectivity testing."""
-    return {
-        "name": "Miodrag Strak",
-        "profile_status": "Professional profile data will be added in a later step.",
-    }
+def get_profile() -> dict[str, Any]:
+    """Return the current public professional profile."""
+    profile_data = load_profile_data()
+    profile = profile_data.get("profile")
+
+    if not isinstance(profile, dict):
+        raise ValueError("Professional profile data must contain a profile object.")
+
+    return profile
