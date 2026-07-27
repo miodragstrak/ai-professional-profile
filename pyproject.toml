@@ -9,3 +9,10 @@ dependencies = [
     "uvicorn>=0.51,<1",
     "mcp>=1.28.1,<2",
 ]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+py-modules = ["main", "mcp_server"]
