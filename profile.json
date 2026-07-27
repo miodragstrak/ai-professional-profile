@@ -1,0 +1,77 @@
+{
+  "schema_version": "0.1",
+  "profile": {
+    "name": "Miodrag Strak",
+    "location": "",
+    "professional_headline": "",
+    "career_summary": "",
+    "current_status": "Profile update in progress",
+    "public_link_source_ids": [
+      "linkedin",
+      "github",
+      "portfolio",
+      "upwork"
+    ]
+  },
+  "experience": [],
+  "projects": [],
+  "skills": [],
+  "education": [],
+  "sources": [
+    {
+      "id": "cv",
+      "type": "document",
+      "label": "Current CV",
+      "url": null,
+      "access": "private",
+      "ingestion_status": "not_ingested",
+      "verification_status": "pending",
+      "retrieved_at": null,
+      "last_verified_at": null
+    },
+    {
+      "id": "linkedin",
+      "type": "linkedin_profile",
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/miodragstrak/",
+      "access": "public",
+      "ingestion_status": "not_ingested",
+      "verification_status": "pending",
+      "retrieved_at": null,
+      "last_verified_at": null
+    },
+    {
+      "id": "github",
+      "type": "github_profile",
+      "label": "GitHub",
+      "url": "https://github.com/miodragstrak",
+      "access": "public",
+      "ingestion_status": "not_ingested",
+      "verification_status": "pending",
+      "retrieved_at": null,
+      "last_verified_at": null
+    },
+    {
+      "id": "portfolio",
+      "type": "portfolio",
+      "label": "Portfolio",
+      "url": "https://miodragstrak.github.io/portfolio/",
+      "access": "public",
+      "ingestion_status": "not_ingested",
+      "verification_status": "pending",
+      "retrieved_at": null,
+      "last_verified_at": null
+    },
+    {
+      "id": "upwork",
+      "type": "upwork_profile",
+      "label": "Upwork",
+      "url": "https://www.upwork.com/freelancers/~014073a09fcc6213f1",
+      "access": "public",
+      "ingestion_status": "not_ingested",
+      "verification_status": "pending",
+      "retrieved_at": null,
+      "last_verified_at": null
+    }
+  ]
+}
