@@ -1,0 +1,7 @@
+[project]
+name = "ai-professional-profile"
+version = "0.1.0"
+description = "A public MCP server for Miodrag Strak's professional profile."
+readme = "README.md"
+requires-python = ">=3.14,<3.15"
+dependencies = []
