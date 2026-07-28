@@ -1,0 +1,83 @@
+{
+  "review_version": "0.1",
+  "source_id": "github",
+  "review_status": "in_progress",
+  "publication_status": "not_published",
+  "projects": [
+    {
+      "repository": "ai-professional-profile",
+      "project_title": "AI Professional Profile",
+      "role": null,
+      "start_date": null,
+      "end_date": null,
+      "project_status": null,
+      "contribution_summary": null,
+      "key_contributions": [],
+      "outcomes": [],
+      "technologies": [],
+      "additional_evidence_source_ids": [],
+      "user_confirmation_status": "pending",
+      "profile_status": "candidate"
+    },
+    {
+      "repository": "askhype",
+      "project_title": "AskHype",
+      "role": null,
+      "start_date": null,
+      "end_date": null,
+      "project_status": null,
+      "contribution_summary": null,
+      "key_contributions": [],
+      "outcomes": [],
+      "technologies": [],
+      "additional_evidence_source_ids": [],
+      "user_confirmation_status": "pending",
+      "profile_status": "candidate"
+    },
+    {
+      "repository": "hype-news-hub",
+      "project_title": "Hype News Hub",
+      "role": null,
+      "start_date": null,
+      "end_date": null,
+      "project_status": null,
+      "contribution_summary": null,
+      "key_contributions": [],
+      "outcomes": [],
+      "technologies": [],
+      "additional_evidence_source_ids": [],
+      "user_confirmation_status": "pending",
+      "profile_status": "candidate"
+    },
+    {
+      "repository": "materialize",
+      "project_title": "Materialize",
+      "role": null,
+      "start_date": null,
+      "end_date": null,
+      "project_status": null,
+      "contribution_summary": null,
+      "key_contributions": [],
+      "outcomes": [],
+      "technologies": [],
+      "additional_evidence_source_ids": [],
+      "user_confirmation_status": "pending",
+      "profile_status": "candidate"
+    },
+    {
+      "repository": "nelutai",
+      "project_title": "NelutAI",
+      "role": null,
+      "start_date": null,
+      "end_date": null,
+      "project_status": null,
+      "contribution_summary": null,
+      "key_contributions": [],
+      "outcomes": [],
+      "technologies": [],
+      "additional_evidence_source_ids": [],
+      "user_confirmation_status": "pending",
+      "profile_status": "candidate"
+    }
+  ]
+}
