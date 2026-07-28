@@ -1,7 +1,7 @@
 {
   "review_version": "0.1",
   "source_id": "github",
-  "review_status": "in_progress",
+  "review_status": "approved",
   "publication_status": "not_published",
   "projects": [
     {
@@ -10,30 +10,62 @@
       "role": "Founder & AI Product Architect",
       "start_date": "2026-07-27",
       "end_date": null,
-      "project_status": null,
-      "contribution_summary": null,
-      "key_contributions": [],
-      "outcomes": [],
-      "technologies": [],
+      "project_status": "active",
+      "contribution_summary": "Conceived, architected, and developed a public MCP-based professional profile that enables AI systems to access controlled, structured, and verifiable career information.",
+      "key_contributions": [
+        "Defined the product concept and V1 MCP contract.",
+        "Designed controlled profile, source, snapshot, review, and publication data models.",
+        "Built and deployed the public MCP server.",
+        "Implemented GitHub snapshot ingestion and manual review workflows."
+      ],
+      "outcomes": [
+        "Public MCP endpoint deployed on Render.",
+        "The get_profile tool was verified through external MCP clients.",
+        "Established controlled separation between source data, reviewed facts, and published profile data."
+      ],
+      "technologies": [
+        "Python",
+        "FastAPI",
+        "Model Context Protocol",
+        "JSON",
+        "GitHub API",
+        "Render",
+        "Git"
+      ],
       "related_repositories": [],
       "public_urls": [
         "https://ai-professional-profile.onrender.com/mcp"
       ],
       "additional_evidence_source_ids": [],
-      "user_confirmation_status": "pending",
+      "user_confirmation_status": "confirmed",
       "profile_status": "candidate"
     },
     {
       "repository": "materialize",
       "project_title": "Materialize",
-      "role": null,
-      "start_date": null,
+      "role": "Co-Founder & Product Lead",
+      "start_date": "2025",
       "end_date": null,
-      "project_status": null,
-      "contribution_summary": null,
-      "key_contributions": [],
-      "outcomes": [],
-      "technologies": [],
+      "project_status": "active",
+      "contribution_summary": "Co-founded and led product development for a decentralized manufacturing platform connecting digital creations with physical production and verifiable fabrication.",
+      "key_contributions": [
+        "Defined the product vision, target users, and value proposition.",
+        "Led MVP definition and product execution planning.",
+        "Designed an AI-assisted workflow from digital creation to physical manufacturing.",
+        "Developed and reviewed decentralized fabrication-verification and Proof-of-Make concepts."
+      ],
+      "outcomes": [
+        "Defined the MVP concept and product architecture.",
+        "Created a public prototype demonstrating fabrication verification.",
+        "Developed a marketplace implementation in a related repository."
+      ],
+      "technologies": [
+        "AI workflows",
+        "OriginTrail DKG",
+        "Blockchain",
+        "React",
+        "TypeScript"
+      ],
       "related_repositories": [
         {
           "repository": "materialize-market",
@@ -41,63 +73,106 @@
         }
       ],
       "public_urls": [],
-      "additional_evidence_source_ids": [],
-      "user_confirmation_status": "pending",
+      "additional_evidence_source_ids": [
+        "cv"
+      ],
+      "user_confirmation_status": "confirmed",
       "profile_status": "candidate"
     },
     {
       "repository": "psk-tax-calculator",
       "project_title": "PSK Tax Optimization Calculator",
-      "role": null,
-      "start_date": null,
+      "role": "Automation and Product Manager",
+      "start_date": "2025",
       "end_date": null,
-      "project_status": null,
-      "contribution_summary": null,
-      "key_contributions": [],
-      "outcomes": [],
-      "technologies": [],
+      "project_status": "active",
+      "contribution_summary": "Designed and implemented a business-facing tax optimization calculator supporting estimation, scenario comparison, and lead-generation workflows for a tax advisory website.",
+      "key_contributions": [
+        "Coordinated product requirements for the tax optimization calculator.",
+        "Designed the calculator workflow and scenario-comparison experience.",
+        "Managed implementation and automation activities.",
+        "Connected the calculator experience with the public tax advisory website."
+      ],
+      "outcomes": [
+        "Delivered a public calculator implementation for the PSK website.",
+        "Implemented a business-facing estimation and lead-generation workflow."
+      ],
+      "technologies": [
+        "Web application",
+        "Business rules",
+        "Automation workflows",
+        "Lead-generation integration"
+      ],
       "related_repositories": [],
       "public_urls": [
         "https://steuerberatung-psk.com/"
       ],
       "additional_evidence_source_ids": [],
-      "user_confirmation_status": "pending",
+      "user_confirmation_status": "confirmed",
       "profile_status": "candidate"
     },
     {
       "repository": "alexgreen",
       "project_title": "A.Lex",
-      "role": null,
-      "start_date": null,
-      "end_date": null,
-      "project_status": null,
-      "contribution_summary": null,
-      "key_contributions": [],
-      "outcomes": [],
-      "technologies": [],
+      "role": "Product Lead and Developer",
+      "start_date": "2025",
+      "end_date": "2025",
+      "project_status": "closed",
+      "contribution_summary": "Led product design and technical implementation of a publicly deployed AI assistant focused on access to environmental legal information.",
+      "key_contributions": [
+        "Led product definition and delivery.",
+        "Developed the public AI assistant experience.",
+        "Structured the user interaction flow for environmental legal information.",
+        "Coordinated deployment and application iteration."
+      ],
+      "outcomes": [
+        "Deployed a public AI assistant at alexgreen.support.",
+        "Completed project delivery in 2025."
+      ],
+      "technologies": [
+        "Artificial intelligence",
+        "Conversational AI",
+        "Web application",
+        "API integration"
+      ],
       "related_repositories": [],
       "public_urls": [
         "https://www.alexgreen.support/"
       ],
       "additional_evidence_source_ids": [],
-      "user_confirmation_status": "pending",
+      "user_confirmation_status": "confirmed",
       "profile_status": "candidate"
     },
     {
       "repository": "nelutai",
       "project_title": "NelutAI",
-      "role": null,
-      "start_date": null,
-      "end_date": null,
-      "project_status": null,
-      "contribution_summary": null,
-      "key_contributions": [],
-      "outcomes": [],
-      "technologies": [],
+      "role": "Stakeholder & Product Manager",
+      "start_date": "2024",
+      "end_date": "2024",
+      "project_status": "completed",
+      "contribution_summary": "Supported product and stakeholder management for an AI-powered tourism chatbot designed to improve how visitors discover destinations and experiences in Serbia.",
+      "key_contributions": [
+        "Coordinated stakeholder requirements and product priorities.",
+        "Supported product positioning and solution definition.",
+        "Helped align AI, tourism, IoT, and blockchain components.",
+        "Contributed to presentation and delivery of the solution."
+      ],
+      "outcomes": [
+        "Delivered an AI-powered tourism chatbot concept.",
+        "Completed the project in 2024."
+      ],
+      "technologies": [
+        "Artificial intelligence",
+        "Conversational AI",
+        "IoT",
+        "Blockchain"
+      ],
       "related_repositories": [],
       "public_urls": [],
-      "additional_evidence_source_ids": [],
-      "user_confirmation_status": "pending",
+      "additional_evidence_source_ids": [
+        "cv"
+      ],
+      "user_confirmation_status": "confirmed",
       "profile_status": "candidate"
     }
   ]
