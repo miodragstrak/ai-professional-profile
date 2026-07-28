@@ -11,24 +11,10 @@
       "apparent_type": "product",
       "evidence_strength": "strong",
       "evidence_summary": "Public MCP server designed to help AI recruiters access and understand a controlled professional profile.",
-      "approval_status": "approved",
-      "profile_status": "candidate"
-    },
-    {
-      "repository": "askhype",
-      "url": "https://github.com/miodragstrak/askhype",
-      "apparent_type": "prototype",
-      "evidence_strength": "strong",
-      "evidence_summary": "Mobile-first Progressive Web App for discovering entertainment, tourism, events, and lifestyle recommendations across the Balkans.",
-      "approval_status": "approved",
-      "profile_status": "candidate"
-    },
-    {
-      "repository": "hype-news-hub",
-      "url": "https://github.com/miodragstrak/hype-news-hub",
-      "apparent_type": "product",
-      "evidence_strength": "strong",
-      "evidence_summary": "Application for aggregating and processing entertainment news.",
+      "related_repositories": [],
+      "public_urls": [
+        "https://ai-professional-profile.onrender.com/mcp"
+      ],
       "approval_status": "approved",
       "profile_status": "candidate"
     },
@@ -38,6 +24,39 @@
       "apparent_type": "prototype",
       "evidence_strength": "medium",
       "evidence_summary": "Prototype demonstrating fabrication verification and Proof-of-Make concepts using the OriginTrail Decentralized Knowledge Graph.",
+      "related_repositories": [
+        {
+          "repository": "materialize-market",
+          "url": "https://github.com/miodragstrak/materialize-market"
+        }
+      ],
+      "public_urls": [],
+      "approval_status": "approved",
+      "profile_status": "candidate"
+    },
+    {
+      "repository": "psk-tax-calculator",
+      "url": "https://github.com/miodragstrak/psk-tax-calculator",
+      "apparent_type": "utility",
+      "evidence_strength": "medium",
+      "evidence_summary": "Tax optimization calculator with a public implementation associated with the PSK tax advisory website.",
+      "related_repositories": [],
+      "public_urls": [
+        "https://steuerberatung-psk.com/"
+      ],
+      "approval_status": "approved",
+      "profile_status": "candidate"
+    },
+    {
+      "repository": "alexgreen",
+      "url": "https://github.com/miodragstrak/alexgreen",
+      "apparent_type": "product",
+      "evidence_strength": "medium",
+      "evidence_summary": "Publicly deployed AI assistant application.",
+      "related_repositories": [],
+      "public_urls": [
+        "https://www.alexgreen.support/"
+      ],
       "approval_status": "approved",
       "profile_status": "candidate"
     },
@@ -47,6 +66,8 @@
       "apparent_type": "product",
       "evidence_strength": "strong",
       "evidence_summary": "AI-powered chatbot focused on tourism experiences in Serbia.",
+      "related_repositories": [],
+      "public_urls": [],
       "approval_status": "approved",
       "profile_status": "candidate"
     }

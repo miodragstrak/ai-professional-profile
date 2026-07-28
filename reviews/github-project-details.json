@@ -15,36 +15,10 @@
       "key_contributions": [],
       "outcomes": [],
       "technologies": [],
-      "additional_evidence_source_ids": [],
-      "user_confirmation_status": "pending",
-      "profile_status": "candidate"
-    },
-    {
-      "repository": "askhype",
-      "project_title": "AskHype",
-      "role": null,
-      "start_date": null,
-      "end_date": null,
-      "project_status": null,
-      "contribution_summary": null,
-      "key_contributions": [],
-      "outcomes": [],
-      "technologies": [],
-      "additional_evidence_source_ids": [],
-      "user_confirmation_status": "pending",
-      "profile_status": "candidate"
-    },
-    {
-      "repository": "hype-news-hub",
-      "project_title": "Hype News Hub",
-      "role": null,
-      "start_date": null,
-      "end_date": null,
-      "project_status": null,
-      "contribution_summary": null,
-      "key_contributions": [],
-      "outcomes": [],
-      "technologies": [],
+      "related_repositories": [],
+      "public_urls": [
+        "https://ai-professional-profile.onrender.com/mcp"
+      ],
       "additional_evidence_source_ids": [],
       "user_confirmation_status": "pending",
       "profile_status": "candidate"
@@ -60,6 +34,51 @@
       "key_contributions": [],
       "outcomes": [],
       "technologies": [],
+      "related_repositories": [
+        {
+          "repository": "materialize-market",
+          "url": "https://github.com/miodragstrak/materialize-market"
+        }
+      ],
+      "public_urls": [],
+      "additional_evidence_source_ids": [],
+      "user_confirmation_status": "pending",
+      "profile_status": "candidate"
+    },
+    {
+      "repository": "psk-tax-calculator",
+      "project_title": "PSK Tax Optimization Calculator",
+      "role": null,
+      "start_date": null,
+      "end_date": null,
+      "project_status": null,
+      "contribution_summary": null,
+      "key_contributions": [],
+      "outcomes": [],
+      "technologies": [],
+      "related_repositories": [],
+      "public_urls": [
+        "https://steuerberatung-psk.com/"
+      ],
+      "additional_evidence_source_ids": [],
+      "user_confirmation_status": "pending",
+      "profile_status": "candidate"
+    },
+    {
+      "repository": "alexgreen",
+      "project_title": "A.Lex",
+      "role": null,
+      "start_date": null,
+      "end_date": null,
+      "project_status": null,
+      "contribution_summary": null,
+      "key_contributions": [],
+      "outcomes": [],
+      "technologies": [],
+      "related_repositories": [],
+      "public_urls": [
+        "https://www.alexgreen.support/"
+      ],
       "additional_evidence_source_ids": [],
       "user_confirmation_status": "pending",
       "profile_status": "candidate"
@@ -75,6 +94,8 @@
       "key_contributions": [],
       "outcomes": [],
       "technologies": [],
+      "related_repositories": [],
+      "public_urls": [],
       "additional_evidence_source_ids": [],
       "user_confirmation_status": "pending",
       "profile_status": "candidate"
