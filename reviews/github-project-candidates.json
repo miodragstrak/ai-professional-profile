@@ -3,7 +3,7 @@
   "source_id": "github",
   "review_status": "approved",
   "approved_on": "2026-07-28",
-  "publication_status": "not_published",
+  "publication_status": "published",
   "candidates": [
     {
       "repository": "ai-professional-profile",
@@ -16,7 +16,7 @@
         "https://ai-professional-profile.onrender.com/mcp"
       ],
       "approval_status": "approved",
-      "profile_status": "candidate"
+      "profile_status": "published"
     },
     {
       "repository": "materialize",
@@ -32,7 +32,7 @@
       ],
       "public_urls": [],
       "approval_status": "approved",
-      "profile_status": "candidate"
+      "profile_status": "published"
     },
     {
       "repository": "psk-tax-calculator",
@@ -45,7 +45,7 @@
         "https://steuerberatung-psk.com/"
       ],
       "approval_status": "approved",
-      "profile_status": "candidate"
+      "profile_status": "published"
     },
     {
       "repository": "alexgreen",
@@ -58,7 +58,7 @@
         "https://www.alexgreen.support/"
       ],
       "approval_status": "approved",
-      "profile_status": "candidate"
+      "profile_status": "published"
     },
     {
       "repository": "nelutai",
@@ -69,7 +69,7 @@
       "related_repositories": [],
       "public_urls": [],
       "approval_status": "approved",
-      "profile_status": "candidate"
+      "profile_status": "published"
     }
   ]
 }

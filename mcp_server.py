@@ -38,3 +38,22 @@ def get_profile() -> dict[str, Any]:
         raise ValueError("Professional profile data must contain a profile object.")
 
     return profile
+
+
+@mcp.tool()
+def get_projects() -> dict[str, list[dict[str, Any]]]:
+    """Return the approved public professional projects."""
+    profile_data = load_profile_data()
+    projects = profile_data.get("projects")
+
+    if not isinstance(projects, list):
+        raise ValueError(
+            "Professional profile data must contain a projects array."
+        )
+
+    if not all(isinstance(project, dict) for project in projects):
+        raise ValueError(
+            "Every professional project must be a JSON object."
+        )
+
+    return {"projects": projects}

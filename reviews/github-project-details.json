@@ -2,7 +2,7 @@
   "review_version": "0.1",
   "source_id": "github",
   "review_status": "approved",
-  "publication_status": "not_published",
+  "publication_status": "published",
   "projects": [
     {
       "repository": "ai-professional-profile",
@@ -38,7 +38,7 @@
       ],
       "additional_evidence_source_ids": [],
       "user_confirmation_status": "confirmed",
-      "profile_status": "candidate"
+      "profile_status": "published"
     },
     {
       "repository": "materialize",
@@ -77,7 +77,7 @@
         "cv"
       ],
       "user_confirmation_status": "confirmed",
-      "profile_status": "candidate"
+      "profile_status": "published"
     },
     {
       "repository": "psk-tax-calculator",
@@ -109,7 +109,7 @@
       ],
       "additional_evidence_source_ids": [],
       "user_confirmation_status": "confirmed",
-      "profile_status": "candidate"
+      "profile_status": "published"
     },
     {
       "repository": "alexgreen",
@@ -141,7 +141,7 @@
       ],
       "additional_evidence_source_ids": [],
       "user_confirmation_status": "confirmed",
-      "profile_status": "candidate"
+      "profile_status": "published"
     },
     {
       "repository": "nelutai",
@@ -173,7 +173,7 @@
         "cv"
       ],
       "user_confirmation_status": "confirmed",
-      "profile_status": "candidate"
+      "profile_status": "published"
     }
   ]
 }

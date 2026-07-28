@@ -14,7 +14,182 @@
     ]
   },
   "experience": [],
-  "projects": [],
+  "projects": [
+    {
+      "id": "ai-professional-profile",
+      "title": "AI Professional Profile",
+      "role": "Founder & AI Product Architect",
+      "start_date": "2026-07-27",
+      "end_date": null,
+      "status": "active",
+      "summary": "Conceived, architected, and developed a public MCP-based professional profile that enables AI systems to access controlled, structured, and verifiable career information.",
+      "key_contributions": [
+        "Defined the product concept and V1 MCP contract.",
+        "Designed controlled profile, source, snapshot, review, and publication data models.",
+        "Built and deployed the public MCP server.",
+        "Implemented GitHub snapshot ingestion and manual review workflows."
+      ],
+      "outcomes": [
+        "Public MCP endpoint deployed on Render.",
+        "The get_profile tool was verified through external MCP clients.",
+        "Established controlled separation between source data, reviewed facts, and published profile data."
+      ],
+      "technologies": [
+        "Python",
+        "FastAPI",
+        "Model Context Protocol",
+        "JSON",
+        "GitHub API",
+        "Render",
+        "Git"
+      ],
+      "repository_url": "https://github.com/miodragstrak/ai-professional-profile",
+      "related_repositories": [],
+      "public_urls": [
+        "https://ai-professional-profile.onrender.com/mcp"
+      ],
+      "source_ids": [
+        "github"
+      ]
+    },
+    {
+      "id": "materialize",
+      "title": "Materialize",
+      "role": "Co-Founder & Product Lead",
+      "start_date": "2025",
+      "end_date": null,
+      "status": "active",
+      "summary": "Co-founded and led product development for a decentralized manufacturing platform connecting digital creations with physical production and verifiable fabrication.",
+      "key_contributions": [
+        "Defined the product vision, target users, and value proposition.",
+        "Led MVP definition and product execution planning.",
+        "Designed an AI-assisted workflow from digital creation to physical manufacturing.",
+        "Developed and reviewed decentralized fabrication-verification and Proof-of-Make concepts."
+      ],
+      "outcomes": [
+        "Defined the MVP concept and product architecture.",
+        "Created a public prototype demonstrating fabrication verification.",
+        "Developed a marketplace implementation in a related repository."
+      ],
+      "technologies": [
+        "AI workflows",
+        "OriginTrail DKG",
+        "Blockchain",
+        "React",
+        "TypeScript"
+      ],
+      "repository_url": "https://github.com/miodragstrak/materialize",
+      "related_repositories": [
+        {
+          "repository": "materialize-market",
+          "url": "https://github.com/miodragstrak/materialize-market"
+        }
+      ],
+      "public_urls": [],
+      "source_ids": [
+        "github",
+        "cv"
+      ]
+    },
+    {
+      "id": "psk-tax-calculator",
+      "title": "PSK Tax Optimization Calculator",
+      "role": "Automation and Product Manager",
+      "start_date": "2025",
+      "end_date": null,
+      "status": "active",
+      "summary": "Designed and implemented a business-facing tax optimization calculator supporting estimation, scenario comparison, and lead-generation workflows for a tax advisory website.",
+      "key_contributions": [
+        "Coordinated product requirements for the tax optimization calculator.",
+        "Designed the calculator workflow and scenario-comparison experience.",
+        "Managed implementation and automation activities.",
+        "Connected the calculator experience with the public tax advisory website."
+      ],
+      "outcomes": [
+        "Delivered a public calculator implementation for the PSK website.",
+        "Implemented a business-facing estimation and lead-generation workflow."
+      ],
+      "technologies": [
+        "Web application",
+        "Business rules",
+        "Automation workflows",
+        "Lead-generation integration"
+      ],
+      "repository_url": "https://github.com/miodragstrak/psk-tax-calculator",
+      "related_repositories": [],
+      "public_urls": [
+        "https://steuerberatung-psk.com/"
+      ],
+      "source_ids": [
+        "github"
+      ]
+    },
+    {
+      "id": "alexgreen",
+      "title": "A.Lex",
+      "role": "Product Lead and Developer",
+      "start_date": "2025",
+      "end_date": "2025",
+      "status": "closed",
+      "summary": "Led product design and technical implementation of a publicly deployed AI assistant focused on access to environmental legal information.",
+      "key_contributions": [
+        "Led product definition and delivery.",
+        "Developed the public AI assistant experience.",
+        "Structured the user interaction flow for environmental legal information.",
+        "Coordinated deployment and application iteration."
+      ],
+      "outcomes": [
+        "Deployed a public AI assistant at alexgreen.support.",
+        "Completed project delivery in 2025."
+      ],
+      "technologies": [
+        "Artificial intelligence",
+        "Conversational AI",
+        "Web application",
+        "API integration"
+      ],
+      "repository_url": "https://github.com/miodragstrak/alexgreen",
+      "related_repositories": [],
+      "public_urls": [
+        "https://www.alexgreen.support/"
+      ],
+      "source_ids": [
+        "github"
+      ]
+    },
+    {
+      "id": "nelutai",
+      "title": "NelutAI",
+      "role": "Stakeholder & Product Manager",
+      "start_date": "2024",
+      "end_date": "2024",
+      "status": "completed",
+      "summary": "Supported product and stakeholder management for an AI-powered tourism chatbot designed to improve how visitors discover destinations and experiences in Serbia.",
+      "key_contributions": [
+        "Coordinated stakeholder requirements and product priorities.",
+        "Supported product positioning and solution definition.",
+        "Helped align AI, tourism, IoT, and blockchain components.",
+        "Contributed to presentation and delivery of the solution."
+      ],
+      "outcomes": [
+        "Delivered an AI-powered tourism chatbot concept.",
+        "Completed the project in 2024."
+      ],
+      "technologies": [
+        "Artificial intelligence",
+        "Conversational AI",
+        "IoT",
+        "Blockchain"
+      ],
+      "repository_url": "https://github.com/miodragstrak/nelutai",
+      "related_repositories": [],
+      "public_urls": [],
+      "source_ids": [
+        "github",
+        "cv"
+      ]
+    }
+  ],
   "skills": [],
   "education": [],
   "sources": [
