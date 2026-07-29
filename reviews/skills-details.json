@@ -2,7 +2,7 @@
   "review_version": "0.1",
   "review_status": "approved",
   "approved_on": "2026-07-29",
-  "publication_status": "not_published",
+  "publication_status": "published",
   "skills": {
     "core": [
       "AI Product Architecture",
@@ -68,5 +68,5 @@
     "Higher Education and R&D"
   ],
   "user_confirmation_status": "confirmed",
-  "profile_status": "candidate"
+  "profile_status": "published"
 }

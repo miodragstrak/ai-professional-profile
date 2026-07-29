@@ -79,3 +79,54 @@ def get_experience() -> dict[str, list[dict[str, Any]]]:
         )
 
     return {"experience": experience}
+
+
+@mcp.tool()
+def get_skills() -> dict[str, Any]:
+    """Return approved professional skills and industry domains."""
+    profile_data = load_profile_data()
+    skills = profile_data.get("skills")
+    domains = profile_data.get("domains")
+
+    if not isinstance(skills, dict):
+        raise ValueError(
+            "Professional profile data must contain a skills object."
+        )
+
+    expected_categories = (
+        "core",
+        "supporting",
+        "technologies",
+    )
+
+    for category in expected_categories:
+        category_skills = skills.get(category)
+
+        if not isinstance(category_skills, list):
+            raise ValueError(
+                f"Skills category {category!r} must be an array."
+            )
+
+        if not all(
+            isinstance(skill, str)
+            for skill in category_skills
+        ):
+            raise ValueError(
+                f"Every skill in category {category!r} "
+                "must be a string."
+            )
+
+    if not isinstance(domains, list):
+        raise ValueError(
+            "Professional profile data must contain a domains array."
+        )
+
+    if not all(isinstance(domain, str) for domain in domains):
+        raise ValueError(
+            "Every professional domain must be a string."
+        )
+
+    return {
+        "skills": skills,
+        "domains": domains,
+    }
