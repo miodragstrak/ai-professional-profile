@@ -13,7 +13,114 @@
       "upwork"
     ]
   },
-  "experience": [],
+  "experience": [
+    {
+      "id": "promptwise",
+      "organization": "PromptWise",
+      "role": "Product Operations, QA & Delivery Coordinator",
+      "start_date": "2026-02-01",
+      "end_date": "2026-07-27",
+      "status": "completed",
+      "summary": "Coordinated product operations, quality assurance, customer-support intake, and delivery workflows for an AI product platform.",
+      "key_responsibilities": [
+        "Planned and executed feature validation, regression testing, and launch-readiness checks.",
+        "Triaged product issues and user feedback across Crisp, Sentry, Linear, and team communication channels.",
+        "Coordinated QA findings, priorities, ticket follow-up, and delivery reporting.",
+        "Helped connect customer reports, engineering work, validation, and final user communication."
+      ],
+      "source_ids": []
+    },
+    {
+      "id": "block-build-bor-ledger-lemur",
+      "organization": "Block Build Bor DOO × Ledger Lemur PR",
+      "role": "Founder & Managing Director",
+      "start_date": "2017-01-01",
+      "end_date": null,
+      "status": "active",
+      "summary": "Founded and managed a technology business delivering AI, blockchain, automation, and digital product initiatives with international partners.",
+      "key_responsibilities": [
+        "Led strategic partnerships, business development, and multidisciplinary teams.",
+        "Managed delivery of IT projects against business goals, timelines, and budgets.",
+        "Designed and optimized business processes.",
+        "Developed automation and RPA solutions for repetitive operational workflows."
+      ],
+      "source_ids": [
+        "cv"
+      ]
+    },
+    {
+      "id": "staydirect-ai",
+      "organization": "StayDirect AI",
+      "role": "Technical Project and Product Manager",
+      "start_date": "2022-01-01",
+      "end_date": "2025-06-01",
+      "status": "closed",
+      "summary": "Led technical product and project delivery for AI-driven marketing solutions in the PropTech sector.",
+      "key_responsibilities": [
+        "Aligned technical projects with business goals and product priorities.",
+        "Coordinated development of AI-powered marketing tools.",
+        "Gathered stakeholder requirements and translated them into implementation plans.",
+        "Created SOPs, technical documentation, risk controls, and delivery processes."
+      ],
+      "source_ids": [
+        "cv"
+      ]
+    },
+    {
+      "id": "addiko-nlb-banking",
+      "organization": "Addiko Bank Srbija & NLB Komercijalna Banka",
+      "role": "Senior Specialist, PMO, Release Manager",
+      "start_date": "2019-05-01",
+      "end_date": "2022-05-01",
+      "status": "closed",
+      "summary": "Managed IT service improvement, PMO coordination, release activities, and business-process optimization in the banking sector.",
+      "key_responsibilities": [
+        "Led service-improvement initiatives and established operational KPIs.",
+        "Contributed to the PMO during the integration of Komercijalna Banka and NLB Bank.",
+        "Coordinated business-process and IT project activities across departments.",
+        "Managed project tracking, reporting, release coordination, and delivery visibility."
+      ],
+      "source_ids": [
+        "cv"
+      ]
+    },
+    {
+      "id": "international-development",
+      "organization": "International Development — World Bank, GIZ and Swiss SDC",
+      "role": "Coordinator, Project Manager",
+      "start_date": "2004-05-01",
+      "end_date": "2019-01-01",
+      "status": "closed",
+      "summary": "Coordinated international-development initiatives involving project management, data analysis, institutional development, and results-based management.",
+      "key_responsibilities": [
+        "Managed cross-sector development projects and stakeholder coordination.",
+        "Supported strategic planning, implementation, monitoring, and reporting.",
+        "Conducted process analysis and contributed to institutional improvements.",
+        "Worked across public-sector, finance, technology, and development environments."
+      ],
+      "source_ids": [
+        "cv"
+      ]
+    },
+    {
+      "id": "academic-roles",
+      "organization": "Academic Roles — University of Belgrade and Metropolitan University",
+      "role": "R&D, Teaching Assistant",
+      "start_date": "2000-10-01",
+      "end_date": "2011-06-30",
+      "status": "closed",
+      "summary": "Contributed to university teaching, applied research, and academic work in information systems, operations research, technology, and related disciplines.",
+      "key_responsibilities": [
+        "Supported teaching, student work, and preparation of academic materials.",
+        "Participated in research and development activities.",
+        "Applied analytical and technical methods to academic and practical problems.",
+        "Connected academic work with project management and technology practice."
+      ],
+      "source_ids": [
+        "cv"
+      ]
+    }
+  ],
   "projects": [
     {
       "id": "ai-professional-profile",

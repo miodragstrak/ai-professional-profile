@@ -57,3 +57,25 @@ def get_projects() -> dict[str, list[dict[str, Any]]]:
         )
 
     return {"projects": projects}
+
+
+@mcp.tool()
+def get_experience() -> dict[str, list[dict[str, Any]]]:
+    """Return the approved public professional experience."""
+    profile_data = load_profile_data()
+    experience = profile_data.get("experience")
+
+    if not isinstance(experience, list):
+        raise ValueError(
+            "Professional profile data must contain an experience array."
+        )
+
+    if not all(
+        isinstance(experience_item, dict)
+        for experience_item in experience
+    ):
+        raise ValueError(
+            "Every professional experience item must be a JSON object."
+        )
+
+    return {"experience": experience}

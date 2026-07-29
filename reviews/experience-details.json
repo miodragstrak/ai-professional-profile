@@ -2,7 +2,7 @@
   "review_version": "0.1",
   "review_status": "approved",
   "approved_on": "2026-07-29",
-  "publication_status": "not_published",
+  "publication_status": "published",
   "experiences": [
     {
       "id": "promptwise",
@@ -20,7 +20,7 @@
       ],
       "evidence_source_ids": [],
       "user_confirmation_status": "confirmed",
-      "profile_status": "candidate"
+      "profile_status": "published"
     },
     {
       "id": "block-build-bor-ledger-lemur",
@@ -40,7 +40,7 @@
         "cv"
       ],
       "user_confirmation_status": "confirmed",
-      "profile_status": "candidate"
+      "profile_status": "published"
     },
     {
       "id": "staydirect-ai",
@@ -60,7 +60,7 @@
         "cv"
       ],
       "user_confirmation_status": "confirmed",
-      "profile_status": "candidate"
+      "profile_status": "published"
     },
     {
       "id": "addiko-nlb-banking",
@@ -80,7 +80,7 @@
         "cv"
       ],
       "user_confirmation_status": "confirmed",
-      "profile_status": "candidate"
+      "profile_status": "published"
     },
     {
       "id": "international-development",
@@ -100,7 +100,7 @@
         "cv"
       ],
       "user_confirmation_status": "confirmed",
-      "profile_status": "candidate"
+      "profile_status": "published"
     },
     {
       "id": "academic-roles",
@@ -120,7 +120,7 @@
         "cv"
       ],
       "user_confirmation_status": "confirmed",
-      "profile_status": "candidate"
+      "profile_status": "published"
     }
   ]
 }
