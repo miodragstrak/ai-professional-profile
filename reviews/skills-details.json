@@ -1,0 +1,72 @@
+{
+  "review_version": "0.1",
+  "review_status": "approved",
+  "approved_on": "2026-07-29",
+  "publication_status": "not_published",
+  "skills": {
+    "core": [
+      "AI Product Architecture",
+      "Technical Product Management",
+      "Product Operations",
+      "Project Management",
+      "Quality Assurance",
+      "Workflow Automation",
+      "Business Process Design",
+      "Stakeholder Management",
+      "Delivery Coordination"
+    ],
+    "supporting": [
+      "Product Management",
+      "Requirements Analysis",
+      "MVP Definition",
+      "Product Roadmapping",
+      "SOP Development",
+      "Regression Testing",
+      "Launch Readiness",
+      "Issue Triage",
+      "Customer Feedback Operations",
+      "Release Management",
+      "PMO Coordination",
+      "Risk Management",
+      "Operational Reporting",
+      "KPI Definition",
+      "AI Product Development",
+      "Conversational AI",
+      "Robotic Process Automation",
+      "AI-assisted Workflows",
+      "Prompt Engineering",
+      "API Integration"
+    ],
+    "technologies": [
+      "Model Context Protocol",
+      "Python",
+      "FastAPI",
+      "React",
+      "TypeScript",
+      "JavaScript",
+      "JSON",
+      "REST APIs",
+      "Git",
+      "GitHub",
+      "Render",
+      "WordPress Integration",
+      "Blockchain",
+      "OriginTrail DKG",
+      "IoT",
+      "PWA Development"
+    ]
+  },
+  "domains": [
+    "Artificial Intelligence",
+    "PropTech",
+    "Banking",
+    "Legal Technology",
+    "Tax Advisory",
+    "Tourism Technology",
+    "Decentralized Manufacturing",
+    "International Development",
+    "Higher Education and R&D"
+  ],
+  "user_confirmation_status": "confirmed",
+  "profile_status": "candidate"
+}
