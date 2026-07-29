@@ -2,7 +2,7 @@
   "review_version": "0.1",
   "review_status": "approved",
   "approved_on": "2026-07-29",
-  "publication_status": "not_published",
+  "publication_status": "published",
   "links": [
     {
       "id": "linkedin",
@@ -11,7 +11,7 @@
       "url": "https://www.linkedin.com/in/miodragstrak/",
       "source_id": "linkedin",
       "verification_status": "user_confirmed",
-      "profile_status": "candidate"
+      "profile_status": "published"
     },
     {
       "id": "github",
@@ -20,7 +20,7 @@
       "url": "https://github.com/miodragstrak",
       "source_id": "github",
       "verification_status": "user_confirmed",
-      "profile_status": "candidate"
+      "profile_status": "published"
     },
     {
       "id": "portfolio",
@@ -29,7 +29,7 @@
       "url": "https://miodragstrak.github.io/portfolio/",
       "source_id": "portfolio",
       "verification_status": "user_confirmed",
-      "profile_status": "candidate"
+      "profile_status": "published"
     },
     {
       "id": "upwork",
@@ -38,7 +38,7 @@
       "url": "https://www.upwork.com/freelancers/~014073a09fcc6213f1",
       "source_id": "upwork",
       "verification_status": "user_confirmed",
-      "profile_status": "candidate"
+      "profile_status": "published"
     },
     {
       "id": "ai-professional-profile-mcp",
@@ -47,7 +47,7 @@
       "url": "https://ai-professional-profile.onrender.com/mcp",
       "source_id": null,
       "verification_status": "verified",
-      "profile_status": "candidate"
+      "profile_status": "published"
     }
   ],
   "user_confirmation_status": "confirmed"

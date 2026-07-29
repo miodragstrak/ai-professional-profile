@@ -362,6 +362,48 @@
     "Higher Education and R&D"
   ],
   "education": [],
+  "links": [
+    {
+      "id": "linkedin",
+      "label": "LinkedIn",
+      "type": "professional_profile",
+      "url": "https://www.linkedin.com/in/miodragstrak/",
+      "source_id": "linkedin",
+      "verification_status": "user_confirmed"
+    },
+    {
+      "id": "github",
+      "label": "GitHub",
+      "type": "developer_profile",
+      "url": "https://github.com/miodragstrak",
+      "source_id": "github",
+      "verification_status": "user_confirmed"
+    },
+    {
+      "id": "portfolio",
+      "label": "Portfolio",
+      "type": "portfolio",
+      "url": "https://miodragstrak.github.io/portfolio/",
+      "source_id": "portfolio",
+      "verification_status": "user_confirmed"
+    },
+    {
+      "id": "upwork",
+      "label": "Upwork",
+      "type": "freelance_profile",
+      "url": "https://www.upwork.com/freelancers/~014073a09fcc6213f1",
+      "source_id": "upwork",
+      "verification_status": "user_confirmed"
+    },
+    {
+      "id": "ai-professional-profile-mcp",
+      "label": "AI Professional Profile — MCP",
+      "type": "mcp_endpoint",
+      "url": "https://ai-professional-profile.onrender.com/mcp",
+      "source_id": null,
+      "verification_status": "verified"
+    }
+  ],
   "sources": [
     {
       "id": "cv",

@@ -130,3 +130,71 @@ def get_skills() -> dict[str, Any]:
         "skills": skills,
         "domains": domains,
     }
+
+
+@mcp.tool()
+def get_links() -> dict[str, list[dict[str, Any]]]:
+    """Return approved public professional links."""
+    profile_data = load_profile_data()
+    links = profile_data.get("links")
+
+    if not isinstance(links, list):
+        raise ValueError(
+            "Professional profile data must contain a links array."
+        )
+
+    if not all(isinstance(link, dict) for link in links):
+        raise ValueError(
+            "Every professional link must be a JSON object."
+        )
+
+    required_fields = (
+        "id",
+        "label",
+        "type",
+        "url",
+        "source_id",
+        "verification_status",
+    )
+
+    for link in links:
+        for field in required_fields:
+            if field not in link:
+                raise ValueError(
+                    f"Professional link is missing field {field!r}."
+                )
+
+        if not isinstance(link["id"], str):
+            raise ValueError(
+                "Every professional link id must be a string."
+            )
+
+        if not isinstance(link["label"], str):
+            raise ValueError(
+                "Every professional link label must be a string."
+            )
+
+        if not isinstance(link["type"], str):
+            raise ValueError(
+                "Every professional link type must be a string."
+            )
+
+        if not isinstance(link["url"], str):
+            raise ValueError(
+                "Every professional link URL must be a string."
+            )
+
+        if (
+            link["source_id"] is not None
+            and not isinstance(link["source_id"], str)
+        ):
+            raise ValueError(
+                "Professional link source_id must be a string or null."
+            )
+
+        if not isinstance(link["verification_status"], str):
+            raise ValueError(
+                "Every link verification status must be a string."
+            )
+
+    return {"links": links}
