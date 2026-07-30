@@ -399,7 +399,7 @@
       "id": "ai-professional-profile-mcp",
       "label": "AI Professional Profile — MCP",
       "type": "mcp_endpoint",
-      "url": "https://ai-professional-profile.onrender.com/mcp",
+      "url": "https://mcp.mstrak.online/mcp",
       "source_id": null,
       "verification_status": "verified"
     }

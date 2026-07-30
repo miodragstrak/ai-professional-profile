@@ -7,13 +7,19 @@ A public Model Context Protocol (MCP) server that helps AI recruiters and other 
 MCP endpoint:
 
 ```text
-https://ai-professional-profile.onrender.com/mcp
+https://mcp.mstrak.online/mcp
 ```
 
 Health endpoint:
 
 ```text
-https://ai-professional-profile.onrender.com/health
+https://mcp.mstrak.online/health
+```
+
+Fallback MCP endpoint:
+
+```text
+https://ai-professional-profile.onrender.com/mcp
 ```
 
 ## Project status
@@ -334,7 +340,7 @@ from mcp import ClientSession
 from mcp.client.streamable_http import streamable_http_client
 
 
-MCP_URL = "https://ai-professional-profile.onrender.com/mcp"
+MCP_URL = "https://mcp.mstrak.online/mcp"
 
 
 async def main() -> None:
@@ -381,15 +387,21 @@ Expected tool list:
 
 The public implementation is deployed as a Render web service.
 
-Production MCP endpoint:
+Primary production MCP endpoint:
+
+```text
+https://mcp.mstrak.online/mcp
+```
+
+The custom domain is the primary public endpoint.
+
+The Render-provided endpoint remains enabled as a fallback:
 
 ```text
 https://ai-professional-profile.onrender.com/mcp
 ```
 
-The current Render URL will remain the primary V1 endpoint.
-
-A custom professional domain may be introduced in a later version while preserving the Render endpoint during migration.
+Deployments still occur automatically from GitHub to Render.
 
 ## V1 scope
 
@@ -416,13 +428,12 @@ V1 includes:
 - The server does not independently verify employment or credentials.
 - The server does not provide a conversational recruiter agent.
 - There is no authentication or access-control layer in V1.
-- The public endpoint currently uses a Render-provided domain.
+- The service is still hosted on Render even though it uses a custom public domain.
 
 ## Potential next steps
 
 Possible post-V1 improvements include:
 
-- a custom professional domain;
 - richer education and certification data;
 - source freshness and verification timestamps;
 - improved GitHub snapshot ingestion;
