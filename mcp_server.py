@@ -12,12 +12,14 @@ transport_security = TransportSecuritySettings(
         "localhost:*",
         "[::1]:*",
         "ai-professional-profile.onrender.com",
+        "mcp.mstrak.online",
     ],
     allowed_origins=[
         "http://127.0.0.1:*",
         "http://localhost:*",
         "http://[::1]:*",
         "https://ai-professional-profile.onrender.com",
+        "https://mcp.mstrak.online",
     ],
 )
 
